@@ -33,6 +33,8 @@ This project performs guitar body and head shape matching using classical comput
 │   ├── naive_approach_matching_examples/
 │   │   ├── matched_*.png               # Example visual results
 │   │   └── matched_result.jpg
+│   │   └── TRIAL_key_point_matching_with_2D_rot.py  # Keypoint-based (failed) approach 
+│   │   └── TRIAL_key_point_matching_with_3D_rot.py  # Another failed attempt using features
 │   ├── template_matching_code/
 │   │   ├── 1_exploratory.py            # Early EDA and testing
 │   │   ├── 2_template_creation_new.py  # New template creation logic
@@ -48,8 +50,8 @@ This project performs guitar body and head shape matching using classical comput
 │   └── done.png                        # Flag/output indicator
 
 ├── templates/                         # Saved template .npy arrays
-│   ├── *_head_template.png.npy
-│   ├── *_upper_body_template.png.npy
+│   ├── *_head_template.png.npy          # Head cutouts per guitar type
+│   ├── *_upper_body_template.png.npy    # Body cutouts per guitar type
 │   └── full_example_on_tele.py         # One-shot template match on Telecaster
 
 ├── test_images/                       # Evaluation/test set
