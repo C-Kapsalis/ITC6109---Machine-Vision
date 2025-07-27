@@ -1,0 +1,5 @@
+opencv-python>=4.7.0      # Core image processing (template matching, imshow, etc.)
+numpy>=1.23               # Array/mask manipulation and image data handling
+matplotlib>=3.6           # For visualizing/debugging templates and results
+requests>=2.28            # Used in double_cuts.py for fetching guitar data
+beautifulsoup4>=4.11      # Used in double_cuts.py to parse thomann.de product listings
