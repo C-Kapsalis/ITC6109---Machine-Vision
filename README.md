@@ -1,8 +1,9 @@
 # 🎸 ITC6109 – Machine Vision Final Project
-
 **Course:** ITC6109 – Machine Vision
 
-**Term:** Fall 2023
+**Institution:** MSc in Data Science, The American College of Greece
+
+**Term:** Fall 2024
 
 This project performs guitar body and head shape matching using classical computer vision techniques on curated guitar image data.
 
