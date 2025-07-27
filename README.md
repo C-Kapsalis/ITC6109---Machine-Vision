@@ -1,4 +1,9 @@
 # 🎸 ITC6109 – Machine Vision Final Project
+Authors: Kavvousanaki, Kapsalis, Proiskos, Stavrogiannis
+
+Course: ITC6109 – Machine Vision
+
+Semester: Fall 2023
 
 This project performs guitar body and head shape matching using classical computer vision techniques on curated guitar image data.
 
@@ -52,3 +57,28 @@ This project performs guitar body and head shape matching using classical comput
 ├── vertical_lines_tool.py             # (Unused) vertical line checker/debugger
 ├── requirements.txt                   # Python dependencies
 └── README.md                          # This file
+```
+
+
+| Script/Filename                         | Purpose                                                     |
+| --------------------------------------- | ----------------------------------------------------------- |
+| `1_exploratory.py`                      | First-pass EDA on image masks and layout                    |
+| `2_template_creation_new.py`            | Early draft of body/head template creation                  |
+| `3_template_matching.py`                | First implementation of body/head matching                  |
+| `3.2_*.py` and `3.5_*.py`               | Experimental naive matching with rotation & scaling         |
+| `4_guitar_part_position_helper.py`      | Calculates body/head bounding boxes                         |
+| `5_new_template_idea_w_orientations.py` | Considers template rotation/orientation for better matching |
+| `6_new_template_creation.py`            | Final body/head template creation                           |
+| `7_new_template_matching.py`            | Matches templates to test images                            |
+| `8_Final_Code.py`                       | 🔥 Run this to reproduce all final results                  |
+
+
+### Reproducing Results
+1. Install dependencies -> pip install -r requirements.txt
+2. Run the final pipeline -> python template_matching_code/template_matching_code/8_Final_Code.py
+
+
+### Notes
+- Data is not augmented or normalized—relies on consistent backgrounds.
+- Template matching is custom, no OpenCV keypoint/feature detectors are used in final version.
+- Trial keypoint scripts are non-functional.
