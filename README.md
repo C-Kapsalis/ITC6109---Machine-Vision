@@ -1,9 +1,8 @@
 # 🎸 ITC6109 – Machine Vision Final Project
-Authors: Kavvousanaki, Kapsalis, Proiskos, Stavrogiannis
 
-Course: ITC6109 – Machine Vision
+**Course:** ITC6109 – Machine Vision
 
-Semester: Fall 2023
+**Term:** Fall 2023
 
 This project performs guitar body and head shape matching using classical computer vision techniques on curated guitar image data.
 
